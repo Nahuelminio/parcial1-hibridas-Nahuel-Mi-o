@@ -1,0 +1,26 @@
+/* Estilos propios, se cargan despues de Bootstrap para poder pisarlo */
+
+body {
+    background-color: #000;
+}
+
+.navbar,
+footer {
+    background-color: #000 !important;
+}
+
+.card {
+    background-color: #0d0d0d;
+    border-color: #2a2a2a;
+    transition: transform .15s ease, border-color .15s ease;
+}
+
+/* Las cards de productos se levantan un poco al pasar el mouse */
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #5a5a5a;
+}
+
+.card img {
+    background-color: #000;
+}
